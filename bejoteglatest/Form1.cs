@@ -56,6 +56,7 @@ namespace bejoteglatest
             numTestatlo.Value = Convert.ToDecimal(Math.Sqrt(a ^ 2 + b ^ 2 + c ^ 2));
             numFelszin.Value = Convert.ToDecimal(2 * (a * b + b * c + a * c));
             numTerfogat.Value = Convert.ToDecimal(a * b * c);
+            /* teszt*/
         }
     }
 }
