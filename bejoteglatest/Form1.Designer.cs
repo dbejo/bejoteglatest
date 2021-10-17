@@ -132,6 +132,11 @@ namespace bejoteglatest
             // 
             this.numTestatlo.DecimalPlaces = 2;
             this.numTestatlo.Location = new System.Drawing.Point(147, 138);
+            this.numTestatlo.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.numTestatlo.Name = "numTestatlo";
             this.numTestatlo.ReadOnly = true;
             this.numTestatlo.Size = new System.Drawing.Size(120, 26);
@@ -141,6 +146,11 @@ namespace bejoteglatest
             // 
             this.numFelszin.DecimalPlaces = 2;
             this.numFelszin.Location = new System.Drawing.Point(147, 178);
+            this.numFelszin.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.numFelszin.Name = "numFelszin";
             this.numFelszin.ReadOnly = true;
             this.numFelszin.Size = new System.Drawing.Size(120, 26);
@@ -150,6 +160,11 @@ namespace bejoteglatest
             // 
             this.numTerfogat.DecimalPlaces = 2;
             this.numTerfogat.Location = new System.Drawing.Point(147, 218);
+            this.numTerfogat.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.numTerfogat.Name = "numTerfogat";
             this.numTerfogat.ReadOnly = true;
             this.numTerfogat.Size = new System.Drawing.Size(120, 26);
