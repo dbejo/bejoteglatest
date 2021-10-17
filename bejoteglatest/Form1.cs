@@ -57,5 +57,13 @@ namespace bejoteglatest
             numFelszin.Value = Convert.ToDecimal(2 * (a * b + b * c + a * c));
             numTerfogat.Value = Convert.ToDecimal(a * b * c);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            Form2 myNewForm = new Form2();
+            myNewForm.Show();
+            this.Hide();
+        }
     }
 }

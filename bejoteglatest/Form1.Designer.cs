@@ -42,6 +42,7 @@ namespace bejoteglatest
             this.buttonSzamol = new System.Windows.Forms.Button();
             this.numColdal = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numAoldal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numBoldal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numTestatlo)).BeginInit();
@@ -253,12 +254,24 @@ namespace bejoteglatest
             this.label6.TabIndex = 11;
             this.label6.Text = "C oldal";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(581, 115);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(207, 70);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormTeglatest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.numColdal);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.buttonSzamol);
@@ -301,6 +314,7 @@ namespace bejoteglatest
         private System.Windows.Forms.Button buttonSzamol;
         private System.Windows.Forms.NumericUpDown numColdal;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
     }
 }
 
