@@ -60,7 +60,7 @@ namespace bejoteglatest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             Form2 myNewForm = new Form2();
             myNewForm.Show();
             this.Hide();

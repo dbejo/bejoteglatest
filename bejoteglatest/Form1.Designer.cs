@@ -208,7 +208,7 @@ namespace bejoteglatest
             // 
             this.buttonSzamol.BackColor = System.Drawing.Color.PaleTurquoise;
             this.buttonSzamol.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonSzamol.Location = new System.Drawing.Point(581, 15);
+            this.buttonSzamol.Location = new System.Drawing.Point(581, 12);
             this.buttonSzamol.Name = "buttonSzamol";
             this.buttonSzamol.Size = new System.Drawing.Size(207, 70);
             this.buttonSzamol.TabIndex = 10;
