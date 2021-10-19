@@ -31,15 +31,30 @@ namespace bejoteglatest
             {
                 if (int.TryParse(textBxNszam.Text, out int n))
                 {
-                    n = Convert.ToInt32(textBxNszam.Text);
-                    for (int i = 1; i <= n; i++)
+                    if (n >= 1)
                     {
-                        osszeg += i;
-                        txtBxOsszeg.Text = osszeg.ToString();
-                        lblNszamOsszeg.Text = "1-től " + n.ToString() + "-ig a számok összege";
-                       
+                        n = Convert.ToInt32(textBxNszam.Text);
+                        for (int i = 1; i <= n; i++)
+                        {
+                            osszeg += i;
+                            txtBxOsszeg.Text = osszeg.ToString();
+                            lblNszamOsszeg.Text = "1-től " + n.ToString() + "-ig a számok összege";
+
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("1-nél nagyobb számot adj meg!");
                     }
                 }
+                else
+                {
+                    MessageBox.Show("Egy számot írj be!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Írj be egy számot!");
             }
             osszeg = 0;
         }

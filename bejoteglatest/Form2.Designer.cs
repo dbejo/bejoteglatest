@@ -44,7 +44,7 @@ namespace bejoteglatest
             this.bttnTeglaSwitch.Name = "bttnTeglaSwitch";
             this.bttnTeglaSwitch.Size = new System.Drawing.Size(207, 70);
             this.bttnTeglaSwitch.TabIndex = 0;
-            this.bttnTeglaSwitch.Text = "button1";
+            this.bttnTeglaSwitch.Text = "Téglatest";
             this.bttnTeglaSwitch.UseVisualStyleBackColor = true;
             this.bttnTeglaSwitch.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -76,6 +76,7 @@ namespace bejoteglatest
             this.textBxNszam.Name = "textBxNszam";
             this.textBxNszam.Size = new System.Drawing.Size(306, 26);
             this.textBxNszam.TabIndex = 13;
+            this.textBxNszam.Tag = "";
             // 
             // lblNszamOsszeg
             // 
@@ -92,6 +93,7 @@ namespace bejoteglatest
             // 
             this.txtBxOsszeg.Location = new System.Drawing.Point(18, 118);
             this.txtBxOsszeg.Name = "txtBxOsszeg";
+            this.txtBxOsszeg.ReadOnly = true;
             this.txtBxOsszeg.Size = new System.Drawing.Size(306, 26);
             this.txtBxOsszeg.TabIndex = 15;
             this.txtBxOsszeg.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
