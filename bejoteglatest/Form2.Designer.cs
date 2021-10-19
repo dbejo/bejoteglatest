@@ -111,7 +111,7 @@ namespace bejoteglatest
             this.Controls.Add(this.buttonSzamol);
             this.Controls.Add(this.bttnTeglaSwitch);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "N szám összege";
             this.ResumeLayout(false);
             this.PerformLayout();
 
